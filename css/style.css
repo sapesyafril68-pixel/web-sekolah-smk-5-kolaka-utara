@@ -1,0 +1,57 @@
+body {
+    font-family: "Inter", Arial, sans-serif; /* urutan font diperbaiki */
+}
+
+.navbar-brand img {
+    width: 40px;
+    margin-right: 8px;
+}
+
+.hero-section {
+    padding: 80px 0;
+    background-color: #cac9c9;
+}
+
+.hero-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.hero-title span {
+    color: #eba901; /* warna kuning emas */
+}
+
+.hero-text {
+    font-size: 1rem;
+    margin: 20px 0;
+    color: #5c5c5c;
+}
+
+.btn-dark {
+    margin-left: 10px;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Perbaikan penulisan class dan konsistensi nama */
+.material-icons {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+/* Perbaikan sintaks linear-gradient */
+#tentang {
+    background: linear-gradient(to bottom, #fff 0%, #e5a000 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Perbaikan penamaan class */
+.custom-quote {
+    border-left: 6px solid #fbbf24; /* kuning */
+    padding: 15px;
+    margin-bottom: 20px;
+}
